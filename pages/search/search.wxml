@@ -1,0 +1,37 @@
+<!--pages/search/search.wxml-->
+<import src="../search/resultItem.wxml" />
+
+<view>
+	<view class='top'>
+		<!-- <view class='bounder'>
+      <text class='bounder_container'>海德格尔</text>
+    </view>
+    <view class='search'>
+      <text class='seacher'>搜索</text>
+    </view> -->
+		<view class="input">
+			<input class="inputform" type="text" name="searchContent" placeholder="请输入要查找的内容" placeholder-class="place-holder" bindinput="searchInput" ></input>
+		</view>
+    <view class="search">
+    <button class="searchBtn" bindtap="search">搜索</button>
+    </view>
+	</view>
+
+  <view class="bar">
+  <button class="source" bindtap="zhiwang" style="background-color:{{color[0]}}">知网</button>
+  <button class="source" bindtap="wanfang" style="background-color:{{color[1]}}">万方</button>
+  <button class="source" bindtap="weipu" style="background-color:{{color[2]}}">维普</button>
+  <button class="source" bindtap="qita" style="background-color:{{color[3]}}">其他</button>
+  </view>
+
+  <view class="number">
+  <text class="ntext">共{{number}}篇</text>
+  </view>
+
+<block wx:for="{{search_result}}" wx:for-item="item">
+  <!-- 调用模板 ，注意最后的反斜杠符号-->
+  <view  data-index="{{index}}">
+    <template is="article" data="{{...item}}" />
+  </view>
+</block>
+</view>

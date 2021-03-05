@@ -1,0 +1,14 @@
+<!--pages/users/findpw/findpw.wxml-->
+<view class="findpw">
+	<view class="input">
+		<text class="text">账号</text>
+		<input class="inputform" name="userID" placeholder="  请输入账号" placeholder-class="place-holder" bindinput="userIDInput"></input>
+	</view>
+	<view class="input">
+		<text class="text">邮箱</text>
+		<input class="inputform" type="text" name="userPassword" placeholder="  请输入邮箱" placeholder-class="place-holder" bindinput="userPasswordInput" password="true"></input>
+	</view>
+  	<view class="click">
+		<button class="findpwBtn" bind:tap="find">找回密码</button>
+	</view>
+</view>

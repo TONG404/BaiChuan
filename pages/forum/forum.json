@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Commend":"../../components/commend/commend"
+  },
+  "navigationBarTitleText": "留言板"
+}

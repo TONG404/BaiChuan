@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/posts/posts",
+    "pages/users/signin/signin",
+    "pages/welcome/welcome",
+    "pages/forum/forum",
+    "pages/users/findpw/findpw",
+    "pages/users/signup/signup",
+    "pages/search/search",
+    "pages/test/test",
+    "pages/posts/post_detail/post_detail",
+    "pages/set/set"
+  ],
+  "sitemapLocation": "sitemap18.json",
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4dc"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#405f80",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/posts1.png",
+        "iconPath": "images/posts2.png",
+        "pagePath": "pages/posts/posts",
+        "text": "推送"
+      },
+      {
+        "selectedIconPath": "images/search1.png",
+        "iconPath": "images/search2.png",
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "selectedIconPath": "images/forum1.png",
+        "iconPath": "images/forum2.png",
+        "pagePath": "pages/forum/forum",
+        "text": "留言"
+      },
+      {
+        "selectedIconPath": "images/set1.png",
+        "iconPath": "images/set2.png",
+        "pagePath": "pages/set/set",
+        "text": "设置"
+      }
+    ]
+  }
+}

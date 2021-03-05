@@ -1,0 +1,13 @@
+<!--pages/posts/post_detail/post_detail.wxml-->
+<view class="container">
+  <image src="{{postdata.headImgSrc}}" class="head-image"></image>
+  <view class="author-date">
+    <image src="{{postdata.avatar}}" class="profile"></image>
+    <text class="author">{{postdata.author}}</text>
+    <text class="const-text">发表于</text>
+    <text class="date">{{postdata.dateTime}}</text>
+  </view>
+  <text class="title">{{postdata.title}}</text>
+  <view class="horizon"></view>
+  <text class="content">{{postdata.detail}}</text>
+</view>

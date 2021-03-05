@@ -1,0 +1,3 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<button class="search" bindtap="search">查询</button>

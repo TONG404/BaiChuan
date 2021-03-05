@@ -1,0 +1,10 @@
+<!--pages/search/resultTem.wxml-->
+<template name="article">
+<view class="piece">
+<view class="title">{{title}}</view>
+<view class="author">{{sources}}</view>
+<view class="desc">{{desc}}</view>
+<view class="url">{{url}}</view>
+</view>
+</template>
+

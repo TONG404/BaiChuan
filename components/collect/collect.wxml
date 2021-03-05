@@ -1,0 +1,5 @@
+<!--component/collect/collect.wxml-->
+<view>
+  <image wx:if="{{collectFlag.value}}" src="../../images/收藏 (1).png" class="collectIcon" catchtap="collect"></image>
+  <image wx:else src="../../images/收藏.png" class="collectIcon" catchtap="collect"></image>
+</view>

@@ -1,0 +1,12 @@
+<!--component/commend.wxml-->
+<view class="piece">
+  <view class="author">
+    <view class="name">{{message.userId}}</view>
+    <view class="time">{{message.createTime}}</view>
+  </view>
+  <view class="content">{{message.messageText}}</view>
+  <view class="bottom">
+    <LikeComponent num="{{topMessageNumbers}}" />
+    <CollectComponent />
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<!--component/like.wxml-->
+<view>
+  <image wx:if="{{likeFlag.value}}" src="../../images/喜欢 (1).png" class="likeIcon" catchtap="like"></image>
+	<image wx:else src="../../images/喜欢.png" class="likeIcon" catchtap="like"></image> 
+</view>

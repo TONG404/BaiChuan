@@ -1,0 +1,7 @@
+/* component/like.wxss */
+.likeIcon{
+  height: 45rpx;
+  width: 45rpx;
+  margin-left: 10px;
+  margin-top: 8rpx;
+}

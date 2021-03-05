@@ -1,0 +1,41 @@
+/* pages/forum/forum.wxss */
+/*输入框*/
+.commendbox{                /*写评论模块*/
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  z-index: 99;
+}
+.commendinput{             /*输入框容器*/
+height:30px;
+width:600rpx;
+margin:20rpx 0 10rpx 20rpx;
+}
+.sendbtn{               /*按钮容器*/
+  height:30px;
+  width: 170rpx;
+  margin:0 20rpx 10rpx 15rpx;
+} 
+.commend{        /*输入框*/
+  height: 30px;
+  width: 550rpx;
+  line-height: 15px;   /*使文字水平居中*/
+  border:0.5px solid #2f4f4f;
+  border-radius: 30rpx;
+}
+.place-holder {
+  font-size: 15px;
+  text-align:center; 
+}
+.send{           /*按钮*/
+  margin:5px 0rpx 10rpx 20rpx;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #b3d4dc;
+  width:100rpx;
+  height:30px;
+  line-height: 30px;
+  font-size: 26rpx;
+  font-weight: 600;
+}

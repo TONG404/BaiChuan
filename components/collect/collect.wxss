@@ -1,0 +1,6 @@
+/* component/collect/collect.wxss */
+.collectIcon{
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 10px;
+}

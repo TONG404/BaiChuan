@@ -1,0 +1,14 @@
+<!--pages/forum/forum.wxml-->
+<block wx:for="{{list}}" wx:for-item="item" wx-index="index">
+	<!-- 调用模板 ，注意最后的反斜杠符号-->
+	<Commend message="{{item}}" />
+</block>
+<view class="commendbox" style="position:fixed; bottom:0;width: 750rpx;">
+	<view class="commendinput">
+		<input class="commend" placeholder="来说点什么吧" bindinput="commentInput" placeholder-class="place-holder"
+			value="{{comment}}"></input>
+	</view>
+	<view class="sendbtn">
+		<button class="send" style="width:120rpx" bindtap="send">发送</button>
+	</view>
+</view>

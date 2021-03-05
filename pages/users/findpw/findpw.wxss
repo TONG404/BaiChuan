@@ -1,0 +1,39 @@
+/* pages/users/findpw/findpw.wxss */
+.findpw{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.input{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 30px;
+  z-index:99
+}
+.inputform{
+  margin-left: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  height:25px;
+  border: 1px solid #b3d4dc;
+}
+.text{
+  color: #405f80;
+  font-size: 15px;
+  font-weight:bold
+}
+.place-holder {
+  font-size: 15px;
+}
+.findpwBtn{
+  margin-top:70px;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #b3d4dc;
+  width:200px;
+  height:40px;
+  line-height: 40px;
+  font-weight: bold;
+}

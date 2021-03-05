@@ -1,0 +1,23 @@
+<!-- 导入模板文件，注意最后的反斜杠符号 -->
+<import src="post_item/post_item_template" />
+<view>
+  <!-- <swiper indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image src="/images/star1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/star2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/star3.jpg"></image>
+    </swiper-item>
+  </swiper> -->
+
+  <!-- 模板化 -->
+  <block wx:for="{{post_key}}" wx:for-item="item">
+    <!-- 调用模板 ，注意最后的反斜杠符号-->
+    <view catchtap="onPostTap" data-postId="{{item.postId}}">
+        <template is="postItem" data="{{...item}}" />
+    </view>
+  </block>
+</view>

@@ -1,0 +1,102 @@
+/* pages/forum/register/register.wxss */
+.container{
+  height:100%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  margin-top: 100px;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #405f80;
+  font-size: 18px;
+  font-weight: bold;
+  margin:30rpx;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.getin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.input{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 10px;
+  z-index:99
+}
+.inputform{
+  margin-left: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  height:25px;
+  border: 1px solid #b3d4dc;
+  padding-left: 10px;
+}
+
+.findPW{
+  display: flex;
+  flex-direction: row;
+  margin:20rpx 0 0 0;
+  height:150rpx
+}
+
+.signup{
+  font-size: 24rpx;
+  font-weight: bold;
+  background-color:transparent;
+  color: #1B747B;
+}
+.signup::after{
+  border:0;
+}
+
+.findpw{
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-left: 200rpx;
+  background-color:transparent;
+  color: #1B747B;
+}
+
+.findpw::after{
+  border:0;
+}
+
+.loginBtn{
+  margin-top:50rpx;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #b3d4dc;
+  width:200px;
+  height:40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.text{
+  color: #405f80;
+  font-size: 15px;
+  font-weight:bold
+}
+.place-holder {
+  font-size: 15px;
+}
+

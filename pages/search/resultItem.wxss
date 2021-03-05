@@ -1,0 +1,29 @@
+/* pages/search/resultTem.wxss */
+.piece{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  background-color:#fff;
+}
+.title{
+  font-size: 18px;
+  font-weight:bold;
+  color:#405f80;
+  margin-left:20rpx;
+}
+.author{
+  font-size: 15px;
+  font-weight: bold;
+  color:#494a4b;
+  margin-left: 25rpx;
+}
+.desc{
+  font-size: 25rpx;
+  color: #757779;
+  margin:30rpx 10rpx 10rpx 10rpx;
+}
+.url{
+  font-size: 25rpx;
+  color: #757779;
+  margin:0 10rpx 50rpx 10rpx;
+}

@@ -1,0 +1,69 @@
+/* pages/search/search.wxss */
+
+@import"../search/resultItem.wxss";
+
+ .top{
+  display:flex;
+  flex-direction: row;
+  align-items: center; 
+ }
+
+ .input{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 5px;
+  z-index:99
+}
+.inputform{
+  margin-left: 20rpx;
+  background-color: #fff;
+  border-radius: 30px;
+  height:30px;
+  width:550rpx; 
+  font-size: 15px;
+  border:1px solid #8fb8c2;
+  padding-left: 10px;
+}
+ .place-holder {
+  font-size: 15px;
+  text-align:center; 
+}
+ .searchBtn{
+  margin:5px 0rpx 10rpx 20rpx;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #b3d4dc;
+  width:120rpx;
+  height:30px;
+  line-height: 30px;
+  font-size: 26rpx;
+  font-weight: 600;
+}
+ .bar{
+   display: flex;
+   flex-direction: row;
+   /*align-items: center;*/
+   margin-top: 10px;
+   margin-left: 15px;
+
+ }
+ .source{
+   font-size: 13px;
+   width:120rpx;
+   height: 30px;
+ }
+ .number{
+  position: relative;
+  align-items:center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+ }
+ .ntext{
+  position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
+  right: 0; /* 靠右调节 */
+  margin-right: 35rpx;
+  font-size: 15px;
+  color:rgb(112, 110, 110);
+ }
+ 

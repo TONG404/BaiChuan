@@ -1,0 +1,28 @@
+<!--pages/forum/register/register.wxml-->
+<view class="container">
+		<view class="userinfo">
+			<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" style="z-index:99"> 获取头像昵称 </button>
+			<block>
+				<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" style="z-index:99"></image>
+				<text class="userinfo-nickname" style="z-index:99">{{userInfo.nickName}}</text>
+			</block>
+		</view>
+		<view class="getin" >
+			<view class="input">
+				<text class="text">账号</text>
+				<input class="inputform" name="userID" placeholder="  请输入账号" placeholder-class="place-holder" bindinput="userIDInput"></input>
+			</view>
+			<view class="input">
+				<text class="text">密码</text>
+				<input class="inputform" type="text" name="userPassword" placeholder="  请输入密码" placeholder-class="place-holder" bindinput="userPasswordInput" password="true"></input>
+			</view>
+			<view class="findPW">
+				<button class="signup" bind:tap="signup">新用户？创建账号</button>
+				<button class="findpw" bind:tap="getpw">忘记密码?</button>
+			</view>
+
+			<view class="click">
+				<button class="loginBtn" bind:tap="signin">登录</button>
+			</view>
+		</view>
+	</view>
